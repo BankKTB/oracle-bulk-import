@@ -14,9 +14,6 @@ SET RENAME_SQL=RENAME %TABLE_NAME% TO %TABLE_NAME%_%TODAY%;
 echo %RENAME_SQL% > %RENAME_SCRIPT%
 
 :: ----------------------------------------
-SET DB_USER=aspconnect
-SET DB_PASS=xitgmLwmp
-SET DB_NAME=aspnetd
 :: ----------------------------------------
 
 :: echo sqlplus %DB_USER%/%DB_PASS%@%DB_NAME% @%RENAME_SCRIPT%
